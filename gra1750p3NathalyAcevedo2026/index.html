@@ -6,12 +6,19 @@
 </head>
 	<style>
 		body{margin: 0;
+			background-image: url("Background.jpg");
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
 		}
 		wrapper{
 			width: 1000px;
 			display: block;
 			margin: auto;
-			background-color: #F2F2F2;
+			background-color: rgba(242, 242, 242, 0.85);
+			box-shadow: 0 0 20px black;
+			padding 20px;
 		}
 		h1{
 			display: inline;
@@ -25,31 +32,56 @@
 		}
 		header{
 			text-align: center;
-			background-color:#F2F2F2;
 		}
 		.banner{
 			width: 100%;
-			box-shadow:0 0 10px black;
-			border: thin solid black;
+			border: thin solid black; 
 		}
 		.container {
 			display: grid;
-			grid-template-columns: 50% 50%;
+			grid-template-columns: 60% 40%;
 			gap: 16px;
 			width: 80%;
 			margin: auto;
-
 		}
 		li{
 			margin-bottom: 8px;
 		}
-		h1, h2, h3 {
-		color: #2450A6;
-		font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+		h3 {
+			color: #2450A6;
+			font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 		}
+		
 		h2 {
-			border-bottom: 3px solid #F2B705;
+			border-bottom: 3px ridge #F2B705;
 			padding-bottom: 8px;
+			text-align: center;
+			color: #2450A6;
+			font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+		}
+		section {
+			border: 2px solid #F2B705;
+			padding: 20px;
+			border-radius: 10px;
+			background-color: #FFFFFF;
+		}
+		p {
+			font-size: 16px;
+			padding: 0 30px;
+		}
+		ul li::marker {
+			color: #F2B705;
+		}
+		footer {
+			text-align: center;
+			margin-top: 20px;
+			color: #FFFFFF;
+			background-color: #2450A6;
+			padding: 20px;
+		}
+		main {
+			padding: 20px;
+		}
 
 	</style>
 
